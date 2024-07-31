@@ -1,0 +1,40 @@
+{
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"tailwindCSS.classAttributes": ["class", "className", "theme"],
+	"tailwindCSS.experimental.classRegex": [
+		["twMerge\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["createTheme\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"cSpell.words": [
+		"bodydark",
+		"boxdark",
+		"Chakra",
+		"ckeditor",
+		"dont",
+		"easespin",
+		"graydark",
+		"hookform",
+		"legendapp",
+		"lexend",
+		"linspin",
+		"orderhistory",
+		"Parens",
+		"picsum",
+		"placehold",
+		"Satoshi",
+		"strokedark",
+		"svgr",
+		"tailwindcss",
+		"tanstack",
+		"toastify",
+		"trpc",
+		"uidotdev",
+		"usehooks",
+		"Xmark"
+	]
+}

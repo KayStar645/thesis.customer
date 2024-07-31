@@ -1,0 +1,16 @@
+/* Example of how to define grid layout */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); /* Total 12 columns, each taking 1 fraction of the available space */
+	gap: 20px; /* Gap between columns */
+}
+
+.column1 {
+	grid-column: span 4; /* Column 1 spans 4 grid units */
+}
+
+.column2 {
+	grid-column: span 8; /* Column 2 spans 8 grid units */
+}
+
+/* Additional styling as needed */

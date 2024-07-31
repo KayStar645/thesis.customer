@@ -1,0 +1,23 @@
+.slick-list,
+.slick-track,
+.slick-slider,
+.slick-slide div {
+	height: 100% !important;
+}
+
+.react-slick-dots {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 16px;
+	left: 0;
+	right: 0;
+	gap: 8px;
+	list-style: none;
+}
+
+.react-slick-dots li.slick-active div {
+	width: 50px;
+	background-color: rgb(29, 202, 82, 0.8);
+}

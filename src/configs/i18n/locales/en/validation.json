@@ -1,0 +1,8 @@
+{
+	"required": "{{ attribute }} is required",
+	"invalid_format": "The format of {{ attribute }} is invalid",
+	"password_not_match": "Password not match",
+	"min": {
+		"character": "Minimum {{ value }} characters"
+	}
+}

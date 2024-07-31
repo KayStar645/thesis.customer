@@ -1,0 +1,8 @@
+{
+	"required": "{{ attribute }} là bắt buộc",
+	"invalid_format": "Định dạng của {{ attribute }}  không hợp lệ",
+	"password_not_match": "Mật khẩu không trùng khớp",
+	"min": {
+		"character": "Tối thiểu {{ value }} ký tự"
+	}
+}

@@ -1,0 +1,60 @@
+/* HomeProductList.module.css */
+
+.pagination {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.pageItem {
+	margin: 0 5px;
+}
+
+.pageLink {
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	color: #333;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pageLink:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.active .pageLink {
+	background-color: #007bff;
+	color: #fff;
+	border-color: #007bff;
+}
+
+.previous,
+.next {
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	color: #333;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.previous:hover,
+.next:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.disabled {
+	background-color: #e9ecef;
+	color: #6c757d;
+	border-color: #e9ecef;
+	cursor: not-allowed;
+}

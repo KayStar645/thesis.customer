@@ -1,0 +1,5 @@
+{
+	"INVALID_CREDENTIALS": "Invalid login credentials",
+	"RECORD_NOT_UNIQUE": "An account already exists with the email you provided",
+	"FORBIDDEN": "You don't have permission to access this"
+}
